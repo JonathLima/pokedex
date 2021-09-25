@@ -1,0 +1,35 @@
+.container-search{
+  display: grid;
+	grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 60rem;
+
+}
+
+
+.searchbar{
+  
+  display: flex;
+  margin:2rem auto;
+  background-color: white;
+  width: 60rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+img{
+  position: relative;
+  left:2.3rem;
+  width: 2.5rem;
+ 
+}
+
+input{
+  width: 52rem;
+  
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+}
+
