@@ -1,39 +1,40 @@
 import './style.scss'
+const PokemonCard = (props) => {
 
-const PokemonCard = () => {
+
   return ( 
   <>
   <div className="container">
     <div className="profile-pokemon">
-        <img  className="pokemon-img" src="/images/user.svg" alt="pokemon profile" />
-        <h2>Pokémon Name</h2>
+        <img  className="pokemon-img" src={props.image} alt="pokemon profile" />
+        <h2>{props.name}</h2>
     </div>
     <div id="container2">
     <div className="container3">
       <div id="gender">
       <h2>Gender</h2>
       {/* <img src="#" alt="#"s/> */}
-      <p>M | F</p>
+      <p>{props.gender}</p>
       </div>
 
       <div id="category">
       <h2>Category</h2>
-      <p>Another Name</p>
+      <p>{props.category}</p>
       </div>
 
       <div id="number-id">
-      <h2>Nº 001</h2>
+      <h2>Nº {props.number}</h2>
       </div>
       
     </div>
 
     <div className="container4">
       <div id="type-pokemon">
-        <p>FIRE</p>
+        <p>{props.type}</p>
       </div>
 
-      <div id="weaknesses">
-          <p>Rock</p>
+      <div id="habitats">
+          <p>{props.habitat}</p>
       </div> 
 
     </div>
@@ -42,23 +43,21 @@ const PokemonCard = () => {
     <div className="container5">
       <div id="height">
       <h2>Height</h2>
-      <p>0.0 m</p>
+      <p>{props.height} m</p>
       </div>
 
       <div id="weight">
       <h2>Weight</h2>
-      <p>0.0 Kg</p>
+      <p>{props.weight} Kg</p>
       </div>
 
       <div id="abilities">
       <h2>Abilities</h2>
-      <p>Powerfull 1</p>
-      <p>Powerfull 2</p>
+      <p>{props.abilitie1}</p>
+      <p>{props.abilitie2}</p>
       </div>
       
     </div>
-
-    
   </div>
   </> 
   );
