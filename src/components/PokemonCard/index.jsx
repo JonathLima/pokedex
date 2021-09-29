@@ -4,7 +4,7 @@ const PokemonCard = (props) => {
 
   return ( 
   <>
-  <div className="container">
+  <div  className="container">
     <div className="profile-pokemon">
         <img  className="pokemon-img" src={props.image} alt="pokemon profile" />
         <h2>{props.name}</h2>

@@ -1,13 +1,26 @@
-import fetch from 'cross-fetch'
+export const api = async (pokemon) => {
+ 
+  try{
+    let url = `https://pokeapi.co/api/v2/pokemon/${pokemon}`
+    const response = await fetch(url)
+    const data = await response.json()
+    return data
 
-const api = () => {
-
-  fetch(`https://pokeapi.co/api/v2/pokemon/`)
-  .then(response => response.json())
-  .then(data => {return data.results})
-    .catch(err => console.log(err));
+  }catch (err){}  
   
 } 
 
-export default api;
+export const getApi = async (limit=8, offset=0) => {
+
+  try{
+    let url = `https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=${offset}`
+    const response = await fetch(url)
+    const data = await response.json()
+    return data
+
+  }catch (err){}  
+
+}
+
+
       

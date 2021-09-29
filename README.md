@@ -9,7 +9,7 @@
 
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/JonathSilva/pokedex">
 
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/Alquipo/React-PokeDex">
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/JonathSilva/pokedex">
 
 <a href="https://www.linkedin.com/in/jonathsilva/">
     <img alt="Made by Alquipo" src="https://img.shields.io/badge/made%20by-JonathSilva-blue">
@@ -37,12 +37,12 @@
 
 ## 🚀 Sobre o Projeto
 
-Este projeto consiste em criar uma pokedex consumindo uma [API](pokeapi.co), a ideia e colocar conceitos que estou aprendendo ao longo de minha jornada. Projeto ainda em construção
+Este projeto consiste em criar uma pokedex consumindo uma [API](https://pokeapi.co/), a ideia e colocar conceitos que estou aprendendo ao longo de minha jornada. Projeto ainda em construção
 
 ## 🔨 Tecnologias:
 
 - [ReactJs][reactjs]
-- [Axios][axios]
+- [Scss][axios]
 
 ## 🚀 Como rodar este projeto
 
@@ -83,13 +83,14 @@ $ yarn start
 
 Este projeto esta sobe a licença MIT. Veja a [LICENÇA][license] para saber mais.
 
-Feito com ❤️ por Alquipo Neto 👋🏽 [Entre em contato!](https://www.linkedin.com/in/jonathsilva)
+Feito com ❤️ por Jonathan Silva 👋🏽 [Entre em contato!](https://www.linkedin.com/in/jonathsilva)
 
 [nodejs]: https://nodejs.org/
 [express]: https://expressjs.com/
 [uuidv4]: https://www.npmjs.com/package/uuidv4
 [nodemon]: https://www.npmjs.com/package/nodemon
 [rs]: https://rocketseat.com.br
+[scss]:[https://sass-lang.com/]
 [license]: https://opensource.org/licenses/MIT
 [postgres]: https://www.postgresql.org/
 [multer]: https://www.npmjs.com/package/multer
