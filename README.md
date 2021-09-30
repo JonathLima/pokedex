@@ -44,6 +44,15 @@ Este projeto consiste em criar uma pokedex consumindo uma [API](https://pokeapi.
 - [ReactJs][reactjs]
 - [Scss][axios]
 
+## 📋 Implementações
+
+[✔️] Estruturar o site.
+[✔️] Consumir [API](https://pokeapi.co/).
+[❌] Carregar os primeiros 8 pokémons assim que abrir o site utilizando useEffect.
+[❌] Realizar busca do Pokemon sem utilizar botão (Real-time Search).
+[❌] Adicionar paginação.
+[❌] Criar testes para o site.
+
 ## 🚀 Como rodar este projeto
 
 Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [NodeJs][nodejs] Instalado em seu computador.

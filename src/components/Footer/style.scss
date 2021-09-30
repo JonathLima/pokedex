@@ -1,0 +1,25 @@
+footer{
+  #container-footer{
+    display: flex;
+    position: absolute;
+    margin-top: 40rem;
+    padding: 3rem;
+    // z-index: 10;
+    bottom: 50;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    border-top: 0.1rem solid white;
+    
+    p{
+      font-size: 1rem;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Rowdies', cursive;
+      color: white;
+    }
+      
+  }
+
+
+}

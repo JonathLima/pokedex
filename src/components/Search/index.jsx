@@ -3,7 +3,7 @@ import PokemonCard from '../PokemonCard';
 import {api} from '../../services/api'
 import './style.scss'
 
-const Search = (props) => {
+const Search = () => {
 
   const [search, setSearch] = useState("")
   const [pokemon, setPokemon] = useState()
@@ -13,6 +13,7 @@ const Search = (props) => {
     setPokemon(data)
   }
 
+
   return ( 
   <>
   <div className="searchbar">
@@ -21,9 +22,8 @@ const Search = (props) => {
       <img src="/images/search-alt.svg" alt="Icon Search" />   
   </div>
 
-
-
   <div className="container-search">
+
     {pokemon && 
     
     <PokemonCard 
@@ -34,8 +34,7 @@ const Search = (props) => {
     gender={pokemon.gender}
     category={pokemon.category}
     weight={pokemon.weight / 10}
-    abilitie1={pokemon.ability}
-    />
+    abilitie1={pokemon.ability}/>
      
     }
 
@@ -47,3 +46,5 @@ const Search = (props) => {
 }
  
 export default Search;
+
+
