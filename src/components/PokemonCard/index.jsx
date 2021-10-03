@@ -9,38 +9,27 @@ const PokemonCard = (props) => {
         <img  className="pokemon-img" src={props.image} alt="pokemon profile" />
         <h2>{props.name}</h2>
     </div>
-    <div id="container2">
+    <div className="container2">
+   
+   
     <div className="container3">
-      <div id="gender">
-      <h2>Gender</h2>
-      {/* <img src="#" alt="#"s/> */}
-      <p>{props.gender}</p>
-      </div>
-
-      <div id="category">
-      <h2>Category</h2>
-      <p>{props.category}</p>
-      </div>
-
+      
       <div id="number-id">
-      <h2>Nº {props.number}</h2>
+      <h2>Nº</h2>
+      <p>{props.number}</p>
       </div>
       
+      <div id="abilities">
+      <h2>Abilities</h2>
+      <p>{props.abilitie}</p>
+
+    </div>
+
+    
+    </div>
     </div>
 
     <div className="container4">
-      <div id="type-pokemon">
-        <p>{props.type}</p>
-      </div>
-
-      <div id="habitats">
-          <p>{props.habitat}</p>
-      </div> 
-
-    </div>
-    </div>
-
-    <div className="container5">
       <div id="height">
       <h2>Height</h2>
       <p>{props.height} m</p>
@@ -51,14 +40,23 @@ const PokemonCard = (props) => {
       <p>{props.weight} Kg</p>
       </div>
 
-      <div id="abilities">
-      <h2>Abilities</h2>
-      <p>{props.abilitie1}</p>
-      <p>{props.abilitie2}</p>
-      </div>
-      
+    
     </div>
-  </div>
+   
+      
+    <div className="container5">
+      <div id="type-pokemon1">
+        <p>{props.type}</p>
+      </div>
+
+      <div id="type-pokemon2">
+          <p>{props.type2}</p>
+      </div> 
+      </div>
+
+      </div>
+
+     
   </> 
   );
 }

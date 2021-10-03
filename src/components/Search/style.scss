@@ -1,7 +1,7 @@
 .container-search{
   display: grid;
-	grid-template-columns: 2fr 1fr;
-  gap: 1rem;
+	grid-template-columns: 1fr 1fr;
+  gap: 1.8rem;
   margin: 0 auto;
   width: 60rem;
 }
@@ -16,9 +16,9 @@
   padding: 1.5rem;
   border-radius: 1rem;
 
-  button{
-    visibility:hidden;
-  }
+  // button{
+  //   // visibility:hidden;
+  // }
 }
 
 img{

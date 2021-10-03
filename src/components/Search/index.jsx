@@ -24,21 +24,21 @@ const Search = () => {
 
   <div className="container-search">
 
-    {pokemon && 
+  
     
-    <PokemonCard 
-    name={pokemon.name[0].toUpperCase() + pokemon.name.substr(1)} 
-    image={pokemon.sprites.other.dream_world.front_default}
-    number={pokemon.id}
-    height={pokemon.height / 10}
-    weight={pokemon.weight / 10}
-    gender={pokemon.gender}
-    category={pokemon.category}
-    abilitie1={pokemon.abilities.ability[0].name}
-    abilitie2={pokemon.abilities.ability[1].name}
-    />
-     
-    }
+    {pokemon && 
+  <PokemonCard 
+  name={pokemon.name[0].toUpperCase() + pokemon.name.substr(1)} 
+  image={pokemon.sprites.other['official-artwork']['front_default']}
+  number={pokemon.id}
+  height={pokemon.height / 10}
+  weight={pokemon.weight / 10}
+  type={pokemon.types[0]['type']['name'][0].toUpperCase() + pokemon.types[0]['type']['name'].substr(1)}
+  abilitie={pokemon.abilities[0]['ability']['name'][0].toUpperCase() + pokemon.abilities[0]['ability']['name'].substr(1) }
+  // abilitie2={pokemon.abilities[1]['ability']['name'][0].toUpperCase() + pokemon.abilities[1]['ability']['name'].substr(1) }
+  
+  />
+  }
 
   </div>
 

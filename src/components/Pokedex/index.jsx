@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
-import PokemonCard from "../PokemonCard";
 import {getApi} from '../../services/api'
+import PokemonCard from "../PokemonCard";
 
 const Pokedex = () => {
 
@@ -23,8 +23,6 @@ const Pokedex = () => {
 
   return ( 
     <div className="container-search">
-    
-    <PokemonCard />
     <PokemonCard/>
     <PokemonCard/>
     <PokemonCard/>
@@ -32,7 +30,6 @@ const Pokedex = () => {
     <PokemonCard/>
     <PokemonCard/>
     <PokemonCard/>
-  
     </div>
    );
 }
