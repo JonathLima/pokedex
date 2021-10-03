@@ -2,6 +2,7 @@
 import {useState, useEffect} from 'react'
 import Header from './components/Header';
 import Search from './components/Search';
+import Pokedex from './components/Pokedex'
 import Footer from './components/Footer'
 import {getApi} from './services/api'
 
@@ -11,18 +12,20 @@ function App() {
 const [pokemons, setPokemons] = useState([]) 
 
 
+  function fetchPokemons(){
+    getApi().then(setPokemons)
+  }
+
   useEffect(() => {
-    const data = getApi();
-    console.log(data)
-    setPokemons(data);
-    
-  }, [])
+    fetchPokemons()
+  }, [pokemons])
 
   return (
     <>
     
     <Header/>
     <Search/>
+    <Pokedex />
     <Footer/>
   
     </>

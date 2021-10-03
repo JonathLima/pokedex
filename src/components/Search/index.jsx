@@ -29,12 +29,14 @@ const Search = () => {
     <PokemonCard 
     name={pokemon.name[0].toUpperCase() + pokemon.name.substr(1)} 
     image={pokemon.sprites.other.dream_world.front_default}
-    height={pokemon.height / 10}
     number={pokemon.id}
+    height={pokemon.height / 10}
+    weight={pokemon.weight / 10}
     gender={pokemon.gender}
     category={pokemon.category}
-    weight={pokemon.weight / 10}
-    abilitie1={pokemon.ability}/>
+    abilitie1={pokemon.abilities.ability[0].name}
+    abilitie2={pokemon.abilities.ability[1].name}
+    />
      
     }
 

@@ -15,11 +15,15 @@
   width: 60rem;
   padding: 1.5rem;
   border-radius: 1rem;
+
+  button{
+    visibility:hidden;
+  }
 }
 
 img{
   position: relative;
-  left:2.3rem;
+  // left:2.5rem;
   width: 2.5rem;
  
 }

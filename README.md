@@ -37,7 +37,7 @@
 
 ## 🚀 Sobre o Projeto
 
-Este projeto consiste em criar uma pokedex consumindo uma [API](https://pokeapi.co/), a ideia e colocar conceitos que estou aprendendo ao longo de minha jornada. Projeto ainda em construção
+Este projeto consiste em criar uma pokedex consumindo uma [API](https://pokeapi.co/), a ideia e colocar conceitos que estou aprendendo ao longo de minha jornada. 🚧 Projeto ainda em construção 🚧
 
 ## 🔨 Tecnologias:
 
@@ -46,12 +46,12 @@ Este projeto consiste em criar uma pokedex consumindo uma [API](https://pokeapi.
 
 ## 📋 Implementações
 
-[✔️] Estruturar o site.
-[✔️] Consumir [API](https://pokeapi.co/).
-[❌] Carregar os primeiros 8 pokémons assim que abrir o site utilizando useEffect.
-[❌] Realizar busca do Pokemon sem utilizar botão (Real-time Search).
-[❌] Adicionar paginação.
-[❌] Criar testes para o site.
+- [✔️] Estruturar o site.
+- [✔️] Consumir [API](https://pokeapi.co/).
+- [❌] Carregar os primeiros 8 pokémons assim que abrir o site utilizando useEffect.
+- [❌] Realizar busca do Pokemon sem utilizar botão (Real-time Search).
+- [❌] Implementar paginação.
+- [❌] Implementar testes “end-to-end” para o site.
 
 ## 🚀 Como rodar este projeto
 
