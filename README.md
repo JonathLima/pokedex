@@ -33,7 +33,7 @@
 
 ## 🎨 Layout
 
-<img src="https://i.imgur.com/rVsFpbx.png">
+<img src="https://i.imgur.com/P5yhvzU.png">
 
 ## 🚀 Sobre o Projeto
 
