@@ -1,4 +1,4 @@
-import './style.scss';
+import './styles.modules.scss';
 
 const PokemonCard = (props) => {
   return (
@@ -21,7 +21,7 @@ const PokemonCard = (props) => {
 
             <div id="abilities">
               <h2>Abilities</h2>
-              <p>{props.abilitie}</p>
+              <p>{props.abilities}</p>
             </div>
           </div>
         </div>
@@ -41,10 +41,6 @@ const PokemonCard = (props) => {
         <div className="container5">
           <div id="type-pokemon1">
             <p>{props.type}</p>
-          </div>
-
-          <div id="type-pokemon2">
-            <p>{props.type2}</p>
           </div>
         </div>
       </div>

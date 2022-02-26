@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #eaeaea;
+  border-radius: 0.8rem;
+  width: 29rem;
+  height: 13.4rem;
+
+  .profile-pokemon {
+    width: 10rem;
+    text-align: center;
+
+    .pokemon-img {
+      position: relative;
+      top: 0rem;
+      left: 0rem;
+      margin-top: 0.6rem;
+      background-color: #9a9a9a;
+      border-radius: 0.5rem;
+      width: 8rem;
+      height: 8rem;
+    }
+
+    h2 {
+      margin-top: 0.2rem;
+      font-size: 1rem;
+      font-family: "Rowdies", sans-serif;
+      letter-spacing: 0.1rem;
+    }
+  }
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  width: 8rem;
+  height: 8.5rem;
+
+  .container3 {
+    #number-id {
+      display: flex;
+      flex-direction: row;
+      margin-top: 1rem;
+
+      h2 {
+        font-family: "Rowdies", sans-serif;
+        font-size: 1rem;
+      }
+      p {
+        font-family: "Rowdies", sans-serif;
+        color: #dc375f;
+        margin-left: 0.25rem;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+    }
+
+    #abilities {
+      width: 10rem;
+      margin-top: 3rem;
+
+      h2 {
+        font-family: "Rowdies", sans-serif;
+      }
+      p {
+        margin-top: 0.2rem;
+        font-family: "Rowdies", sans-serif;
+        color: #dc375f;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+
+  #height {
+    margin-top: 0.9rem;
+
+    h2 {
+      font-family: "Rowdies", sans-serif;
+      font-size: 1rem;
+    }
+    p {
+      font-family: "Rowdies", sans-serif;
+      margin-top: 0.2rem;
+      color: #dc375f;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+
+  #weight {
+    margin-top: 1.6rem;
+    h2 {
+      font-family: "Rowdies", sans-serif;
+      font-size: 1rem;
+    }
+    p {
+      margin-top: 0.2rem;
+      font-family: "Rowdies", sans-serif;
+      color: #dc375f;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+}
+
+.container5 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 9.5rem;
+  bottom: 1rem;
+  #type-pokemon1 {
+    background-color: #7fb43c;
+    width: 8.5rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    p {
+      text-align: center;
+      margin-top: 0.15rem;
+      font-family: "Rowdies", sans-serif;
+      color: whitesmoke;
+      font-weight: 400;
+      font-size: 1.2rem;
+    }
+  }
+}

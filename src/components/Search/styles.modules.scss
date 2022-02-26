@@ -1,16 +1,6 @@
-.container-search{
-  display: grid;
-	grid-template-columns: 1fr 1fr;
-  gap: 1.8rem;
-  margin: 0 auto;
-  width: 60rem;
-}
-
-
-.searchbar{
-  
+.searchbar {
   display: flex;
-  margin:2rem auto;
+  margin: 2rem auto;
   background-color: white;
   width: 60rem;
   padding: 1.5rem;
@@ -21,18 +11,16 @@
   // }
 }
 
-img{
+img {
   position: relative;
-  // left:2.5rem;
+
   width: 2.5rem;
- 
 }
 
-input{
+input {
   width: 52rem;
-  
+  margin-left: 1rem;
   outline: none;
   border: none;
   font-size: 1.5rem;
 }
-

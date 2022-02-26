@@ -1,0 +1,41 @@
+#header-text {
+  color: white;
+  font-family: "Rowdies", cursive;
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.container-pokemons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.8rem;
+  margin: 0 auto;
+  width: 60rem;
+}
+
+footer {
+  #container-footer {
+    display: flex;
+    position: absolute;
+    margin-top: 5rem;
+    padding: 3rem;
+    // z-index: 10;
+    bottom: 50;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    border-top: 0.1rem solid white;
+
+    p {
+      font-size: 1rem;
+      justify-content: center;
+      text-align: center;
+      font-family: "Rowdies", cursive;
+      color: white;
+    }
+  }
+}
