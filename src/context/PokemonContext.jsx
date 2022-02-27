@@ -7,6 +7,8 @@ const PokemonContext = createContext();
 export function PokemonProvider({ children }) {
   const [pokemon, setPokemon] = useState();
   const [allPokemons, setAllPokemons] = useState([]);
+  const [step] = useState(20);
+  const [pages, setPages] = useState(0);
 
   async function fetchPokemon(search) {
     try {
@@ -18,21 +20,27 @@ export function PokemonProvider({ children }) {
   }
 
   async function fetchAllPokemons() {
-    const response = await getAllPokemons();
+    const response = await getAllPokemons(step, pages);
     const pokemons = await Promise.all(
       response.results.map((pokemon) => {
         return getPokemon(pokemon.name);
       }),
     );
 
-    setAllPokemons(pokemons);
+    setAllPokemons([...allPokemons, ...pokemons]);
+    setPages(pages + step);
   }
 
+  function loadingMorePokemons() {
+    return fetchAllPokemons();
+  }
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => fetchAllPokemons(), []);
 
   return (
     <PokemonContext.Provider
-      value={{ pokemon, fetchPokemon, allPokemons, setAllPokemons }}
+      value={{ pokemon, fetchPokemon, allPokemons, loadingMorePokemons }}
     >
       {children}
     </PokemonContext.Provider>

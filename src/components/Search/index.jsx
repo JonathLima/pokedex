@@ -11,11 +11,6 @@ const Search = ({ onSearch }) => {
     //   return onSearch(event.target.value);
     // }
     // onSearch("");
-    //setSearch(event.target.value);
-    // if (timeToSearch) {
-    //   clearInterval(timeToSearch);
-    // }
-    // setTimeToSearch(setTimeout(() => onSearch(search), 500));
   }
 
   function handleSubmit(event) {

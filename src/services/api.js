@@ -2,8 +2,8 @@ import axios from "axios";
 
 const baseUrl = "https://pokeapi.co/api/v2";
 
-const getAllPokemons = async (page = 20) => {
-  const url = `${baseUrl}/pokemon?limit=${page}`;
+const getAllPokemons = async (step, page) => {
+  const url = `${baseUrl}/pokemon?limit=${step}&offset=${page}`;
 
   const response = await axios.get(url);
   return response.data;

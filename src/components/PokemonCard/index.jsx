@@ -1,6 +1,7 @@
+import pokemonType from '../../styles/pokemonType';
 import './styles.modules.scss';
 
-const PokemonCard = (props) => {
+const PokemonCard = props => {
   return (
     <>
       <div className="container">
@@ -39,7 +40,12 @@ const PokemonCard = (props) => {
         </div>
 
         <div className="container5">
-          <div id="type-pokemon1">
+          <div
+            id="type-pokemon1"
+            style={{
+              backgroundColor: pokemonType.types[props.type?.toLowerCase()],
+            }}
+          >
             <p>{props.type}</p>
           </div>
         </div>
