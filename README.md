@@ -1,9 +1,6 @@
+# <div align="center">Pokédex Website </div>
 
-# <div align="center">Pokédex Website | 🚧 Em Construção 🚧</div>
-
-#### <div align="center"> Website: </br> ```NOT AVAILABLE```</div>
-
-
+#### <div align="center"> Website: </br> pokedex-rust-sigma.vercel.app</div>
 
 <p align="center">
 
@@ -12,7 +9,7 @@
 <img alt="Repository size" src="https://img.shields.io/github/repo-size/JonathSilva/pokedex">
 
 <a href="https://www.linkedin.com/in/jonathsilva/">
-    <img alt="Made by Alquipo" src="https://img.shields.io/badge/made%20by-JonathSilva-blue">
+    <img alt="Made by Jonathan" src="https://img.shields.io/badge/made%20by-JonathSilva-blue">
 </a>
 
 <a href="https://github.com/JonathSilva/pokedex/commits/main">
@@ -37,7 +34,7 @@
 
 ## 🚀 Sobre o Projeto
 
-Este projeto consiste em criar uma pokedex consumindo uma [API](https://pokeapi.co/), a ideia e colocar conceitos que estou aprendendo ao longo de minha jornada. 🚧 Projeto ainda em construção 🚧
+Este projeto consiste em criar uma pokedex consumindo uma [API](https://pokeapi.co/), a ideia e colocar conceitos que estou aprendendo ao longo de minha jornada.
 
 ## 🔨 Tecnologias:
 
@@ -48,9 +45,9 @@ Este projeto consiste em criar uma pokedex consumindo uma [API](https://pokeapi.
 
 - [✔️] Estruturar o site.
 - [✔️] Consumir [API](https://pokeapi.co/).
-- [❌] Carregar os primeiros 8 pokémons assim que abrir o site utilizando useEffect.
-- [❌] Realizar busca do Pokemon sem utilizar botão (Real-time Search).
-- [❌] Implementar paginação.
+- [✔️] Carregar os primeiros 8 pokémons assim que abrir o site utilizando useEffect.
+- [✔️] Realizar busca do Pokemon sem utilizar botão (Real-time Search).
+- [✔️] Implementar paginação.
 - [❌] Implementar testes “end-to-end” para o site.
 
 ## 🚀 Como rodar este projeto
@@ -99,6 +96,7 @@ Feito com ❤️ por Jonathan Silva 👋🏽 [Entre em contato!](https://www.lin
 [uuidv4]: https://www.npmjs.com/package/uuidv4
 [nodemon]: https://www.npmjs.com/package/nodemon
 [rs]: https://rocketseat.com.br
+
 [scss]:[https://sass-lang.com/]
 [license]: https://opensource.org/licenses/MIT
 [postgres]: https://www.postgresql.org/
