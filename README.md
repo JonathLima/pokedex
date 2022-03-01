@@ -95,8 +95,6 @@ Feito com ❤️ por Jonathan Silva 👋🏽 [Entre em contato!](https://www.lin
 [express]: https://expressjs.com/
 [uuidv4]: https://www.npmjs.com/package/uuidv4
 [nodemon]: https://www.npmjs.com/package/nodemon
-[rs]: https://rocketseat.com.br
-
 [scss]:[https://sass-lang.com/]
 [license]: https://opensource.org/licenses/MIT
 [postgres]: https://www.postgresql.org/
@@ -106,5 +104,4 @@ Feito com ❤️ por Jonathan Silva 👋🏽 [Entre em contato!](https://www.lin
 [babel]: https://babeljs.io/
 [webpack]: https://webpack.js.org/
 [rs]: https://rocketseat.com.br
-[license]: https://opensource.org/licenses/MIT
 [typescript]: https://www.typescriptlang.org/
