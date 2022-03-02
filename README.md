@@ -48,7 +48,7 @@ Este projeto consiste em criar uma pokedex consumindo uma [API](https://pokeapi.
 - [✔️] Carregar os primeiros 8 pokémons assim que abrir o site utilizando useEffect.
 - [✔️] Realizar busca do Pokemon sem utilizar botão (Real-time Search).
 - [✔️] Implementar paginação.
-- [❌] Implementar testes “end-to-end” para o site.
+- [❌] Implementar testes para o site.
 
 ## 🚀 Como rodar este projeto
 
